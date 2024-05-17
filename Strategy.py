@@ -348,9 +348,9 @@ def Bot(client,pairs):
           
  
 
-Info = {"apiKey":"5XXQn7CBPZTQk5dZjcXwnSgAaC6zJU4nwLEvfg4Dp1adQVMUL4S3TWvz39jiASs2","secretKey":"TG424Qd63QpIyWR1PPXucc0KyaTDRKzOtaaFTaTXE5fQ1yxL0qPs39p1rMi3OFTD","comment":"Bot"}
+Info = {"apiKey":"","secretKey":"","comment":"Bot"}
 client = Client(Info['apiKey'],Info['secretKey'],{"verify": True, "timeout": 20}, tld='us')
-print(client)
+# print(client)
 d = date.today().strftime("%d%b%Y")
 engine = sqlalchemy.create_engine(f'sqlite:///Live_Data/{d}.db')
 # df = pd.read_sql('Stream', engine)
