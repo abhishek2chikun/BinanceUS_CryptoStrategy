@@ -33,7 +33,6 @@ async def main():
             d = date.today().strftime("%d%b%Y")
             # d= '16Mar2022'
             engine = sqlalchemy.create_engine(f'sqlite:///Live_Data/{d}.db')
-            # Info = {"apiKey":"5XXQn7CBPZTQk5dZjcXwnSgAaC6zJU4nwLEvfg4Dp1adQVMUL4S3TWvz39jiASs2","secretKey":"TG424Qd63QpIyWR1PPXucc0KyaTDRKzOtaaFTaTXE5fQ1yxL0qPs39p1rMi3OFTD","comment":"Bot"}
 
             # client = Client(Info['apiKey'],Info['secretKey'])
 
