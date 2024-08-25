@@ -44,7 +44,7 @@ async def main():
     # initialise the client
    
 
-    Info = {"apiKey":"5XXQn7CBPZTQk5dZjcXwnSgAaC6zJU4nwLEvfg4Dp1adQVMUL4S3TWvz39jiASs2","secretKey":"TG424Qd63QpIyWR1PPXucc0KyaTDRKzOtaaFTaTXE5fQ1yxL0qPs39p1rMi3OFTD","comment":"Bot"}
+    Info = {"apiKey":"","secretKey":"","comment":"Bot"}
     client = await AsyncClient.create(Info['apiKey'],Info['secretKey'])
 
     pairs = ['BTCUSD','ETHUSD','BNBUSD','ADAUSD','SOLUSD','AVAXUSD','DOTUSD','MATICUSD','DOGEUSD','ATOMUSD','LTCUSD']
